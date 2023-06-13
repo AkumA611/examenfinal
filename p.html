@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="q.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Tipos de Maldad en la lficcion o real</h1></header>
+    <select id="select1">
+        <option value="opcion1">Maldad demoníaca</option>
+        <option value="opcion2">Maldad instrumental</option>
+        <option value="opcion3">Maldad ideologica</option>
+        <option value="opcion4">Maldad estúpida</option>
+      </select>
+      
+      <select id="select2">
+        <option value="opcionA">ficcion</option>
+        <option value="opcionB">real</option>
+      </select>
+      
+      <button onclick="mostrarImagen()">Mostrar</button>
+     
+      <script>
+        function mostrarImagen() {
+          var select1 = document.getElementById("select1");
+          var opcionSelect1 = select1.value;
+      
+          var select2 = document.getElementById("select2");
+          var opcionSelect2 = select2.value;
+      
+          var imagenContainer = document.getElementById("imagen-container");
+          imagenContainer.innerHTML = ""; // Limpiar el contenido previo del contenedor
+      
+          if (opcionSelect1 === "opcion1" && opcionSelect2 === "opcionA") {
+            var imagen = document.createElement("img");
+            imagen.src = "joker.jpg";
+            imagen.alt = "Descripción de la imagen 1";
+            imagenContainer.appendChild(imagen);
+          } else if (opcionSelect1 === "opcion1" && opcionSelect2 === "opcionB") {
+            var imagen = document.createElement("img");
+            imagen.src = "ivan.jpg";
+            imagen.alt = "Descripción de la imagen 2";
+            imagenContainer.appendChild(imagen);
+          } 
+
+
+
+          if (opcionSelect1 === "opcion2" && opcionSelect2 === "opcionA") {
+            var imagen = document.createElement("img");
+            imagen.src = "lex.jpg";
+            imagen.alt = "Descripción de la imagen 1";
+            imagenContainer.appendChild(imagen);
+          } else if (opcionSelect1 === "opcion2" && opcionSelect2 === "opcionB") {
+            var imagen = document.createElement("img");
+            imagen.src = "narcos.png";
+            imagen.alt = "Descripción de la imagen 2";
+            imagenContainer.appendChild(imagen);
+          } 
+          
+          if (opcionSelect1 === "opcion3" && opcionSelect2 === "opcionA") {
+            var imagen = document.createElement("img");
+            imagen.src = "frio.jpg";
+            imagen.alt = "Descripción de la imagen 1";
+            imagenContainer.appendChild(imagen);
+          } else if (opcionSelect1 === "opcion3" && opcionSelect2 === "opcionB") {
+            var imagen = document.createElement("img");
+            imagen.src = "hitler.png";
+            imagen.alt = "Descripción de la imagen 2";
+            imagenContainer.appendChild(imagen);
+          }
+          
+          
+          if (opcionSelect1 === "opcion4" && opcionSelect2 === "opcionA") {
+            var imagen = document.createElement("img");
+            
+            imagen.src = "est.png";
+            imagen.alt = "Descripción de la imagen 1";
+            imagenContainer.appendChild(imagen);
+          } else if (opcionSelect1 === "opcion4" && opcionSelect2 === "opcionB") {
+            var imagen = document.createElement("img");
+            
+            imagen.src = "pool.jpg";
+            imagen.alt = "Descripción de la imagen 2";
+            imagenContainer.appendChild(imagen);
+          } 
+        }
+      </script>
+      
+      <div id="imagen-container" class="r1"></div>
+</body>
+</html>

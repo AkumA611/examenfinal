@@ -1,0 +1,16 @@
+h1{
+    background-color: #0e015c;
+    color: #cfc9c8;
+    text-align: center;
+    font-size: 50px;
+   }
+   .res{
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    color: #1f1918;
+    font-size: 24px;
+   }
+body{
+    background-color: rgb(103, 79, 207);
+}

@@ -1,0 +1,177 @@
+* {
+  padding:0%;
+  margin: 15px;
+  
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("prin3.jpg");
+
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e5dbba;
+  font-family:Verdana;
+}
+p {
+  font-size: 20px;
+ 
+  text-align: justify;
+}
+audio {
+  position: fixed;
+  width: 150px;
+  height: 30px;
+}
+
+.tit {
+  text-align: center;
+  border: 8px outset whitesmoke;
+  background-color: #f9bc69;
+  font-size: 20px;
+}
+ul{
+  background-color: black;
+}
+.cin{
+  width: 70%;
+}
+.cin a {
+  color: whitesmoke;
+  background-color: black;
+  font-weight: 600;
+  display: block;
+  font-size: 20px;
+}
+h1 {
+  color: black;
+  font-variant: small-caps;
+}
+h2 {
+  font-size: 30px;
+  color: #eccc10;
+}
+img{
+
+  border: 2px solid #e5dbba;
+  border-radius: 12px;
+  padding: 10px;
+  width: 90%;
+  margin: 10px;
+
+}
+
+   
+.roj{
+  color: #EC6744;
+}
+h3 {
+  font-size: 25px;
+  color: #eccc10;
+}
+
+
+
+.logo {
+  background: url(br1.png) no-repeat 5% 25%;
+  background-size: contain;
+  width: 540px;
+  height: 100px;
+  float: left;
+}
+.navi {
+  position: fixed;
+  height: 80px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: #f9bc69;
+  width: 100%;
+
+
+  border:3px solid brown;
+   border-radius:22px;
+}
+
+
+
+
+.entrada{
+  position: absolute;
+  right: 20px;
+}
+
+.entrada a{
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 20px;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+
+.entrada a:hover{
+  color: #E85860;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    color: #e5dbba;
+    font-family:franklin Gothic Medium;
+  }
+
+  p {
+    font-size: 18px;
+  }
+  .tit {
+    text-align: center;
+    border: 12px outset whitesmoke;
+  }
+
+  body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .navi {
+    overflow: visible;
+}
+.entrada {
+    width: 100%;
+    right: 0;
+    top: 80px;
+    background: #f1f1f1E6;
+    overflow: hidden;
+    max-height: 0;
+}
+.entrada a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+}
+
+
